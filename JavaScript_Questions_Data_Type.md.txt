@@ -1,0 +1,216 @@
+# JavaScript Questions : Data_Type
+Q1+B
+Q2+E
+Q3+A
+Q4+A
+Q5+B
+Q6+B
+Q7+A
+Q8+B
+Q9+C
+Q10+A
+Q11+D
+Q12+C
+Q13+B
+Q14+B
+Q15+A ET D
+Q16+C
+Q17+B
+Q18+C
+Q19+C
+Q20+A ET B
+Q21+B
+Q22+E
+Q23+B
+Q24+A
+Q25+A
+Q26+C
+Q27+B
+
+
+
+# Q1 Which of the following is the correct way to log an expression to the console? b
+
+.A :  console.log(Hello Simplon)
+.B :  console.log("Hello Simplon")
+.C :  consolelog ("Hello Simplon")
+
+
+# Q2 The expression "Hello" + 'Simplon' resolves to : E
+.A :  'HelloSimplon' 
+.B :  "HelloSimplon"
+.C :  "Hello Simplon'"
+.D :  'Hello Simplon"
+.E :  Hello Simplon
+
+# Q3 How can we store the result of this expression 5 * 70 / 100 in a variable called Result ? A
+*
+.A :  let result = 5 * 70 / 100
+.B :  let result = (5 * 70 / 100)
+.C :  let "result" = 5 * 70 / 100
+.D : let result = "5 * 70 / 100"
+
+# Q4  Can we change the value of myName from “Houssem” to “Nessrine” ? A
+                               let myName = "Houssem"
+.A : Yes
+.B : No
+# Q5  Can we change the type of phoneNumber from number to string ? B
+                               let phoneNumber = 71 000 000
+.A : Yes
+.B : No
+
+# Q6 How to create an object variable ? B
+
+.A : let animal = cat
+.B : let animal = [cat]
+.C : let animal = { type : "cat"} 
+
+# Q7 How to create an array variable? A
+
+.A : let array = [1,"e","true",7888]
+.B : let array = {one : 1 , two : 2}
+.C : let array = "h" , "a", "m" ,"z", "a"
+.D : let array = []
+
+# Q8 Does  100 + 30+ "20"  produce a number or a string? b
+
+.A : number
+.B : string
+
+# Q9 After running this code: let x What is the value of x? c
+
+.A : number
+.B : null 
+.C : undefined
+
+# Q10    What does the following snippet output ? a
+                     let myName = "Seif"
+                     myname = 15
+                     myname = Google
+                     console.log(myName)
+.A : Seif
+.B : 15 
+.C : google
+
+# Q11 If we declare a variable, const value = 1, then later, reassign, stating value = 2, what will happen? D
+
+.A : value will equal 2
+.B :  value will equal 1 
+.C : value will equal undefined 
+.D : JavaScript will raise a TypeError
+                                                                                     
+# Q12  What does the following snippet output ? c
+                                  let nbr = 84 /0 
+                                  console.log(nbr)
+
+.A :  84
+.B :  0
+.C :   infinity
+.D : Nan
+
+# Q13 let age = "25" B
+
+               The type of age is number
+.A : Yes
+.B : No
+
+# Q14 What is the result of the expression b
+
+                                20 - '10'
+.A : 10
+.B : undefined
+.C : NaN
+.D : 0
+
+
+# Q15 How to declare a string variable ? A ET D
+
+.A :  let name = " Mouna"
+.B :  let name= (" Mouna")
+.C :   let name = Mouna
+.D :  var name = " Mouna"
+
+
+# Q16 Which of the following is the correct way of returning the length of this string?
+
+.A :  length("hello")
+.B :  length."hello"
+.C :   "hello".length
+
+# Q17 What will be output of below statements? B
+
+let car = "BMW"
+car = " Ford"
+.A :  car
+.B :  "Ford"
+.C :   "BMW" 
+
+# Q18  What is the length of the following string :  c
+                           let str = "Hi Sir !"
+.A :  8
+.B :   3
+.C :   6 
+
+# Q19  Which of these is an incorrect statement D
+
+.A : console.log( "my name is 'Syrine' ! " )
+
+.B : console.log( 'my name is "Syrine" ! ' )
+
+.C : console.log( "my name is "Syrine" ! " )
+
+.D : console.log( "my name is \"Syrine\" ! " )
+
+# Q20 How to declare a boolean variable ? A et b
+                        
+.A :   let isBoolean= true
+.B :   let isBoolean = False
+.C :   let isBoolean= false
+.D :  let isBoolean = 4500 <=15000
+
+# Q21 What does the following expression return? C
+
+.A :  false
+.B :   False 
+.C :   TRUE
+
+# Q22 What does the following expression return ?
+.A :  false
+.B :   true 
+.C :   undefined
+
+# Q23 Are these boolean variables ? B
+                      let isEmployee = true 
+                      let isStudent = 'false'
+.A :  Yes
+.B :   No
+
+# Q24  What will be output of below statement? A
+
+                   console.log(100 <= 100)
+.A :  true 
+.B :   false
+.C :  100
+
+# Q25 What is the length of the following array: ["hello" ,"a",7, 8 ,true ,false ] A 
+.A : 6
+.B: 5 
+.C 7 
+# Q26 What is the output of the following code fragment: C
+
+                let arr = [ 200 , 7 , 780 , 0 ] 
+
+                   console.log( arr[2] )
+
+.A : 2
+.B: 7
+.C 780
+.D: undefined
+
+# Q27 What is the index value of the first element? B
+
+.A : -1
+.B: 0
+.C 1
+.D: 2
+
