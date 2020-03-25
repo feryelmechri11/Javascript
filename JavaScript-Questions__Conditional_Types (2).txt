@@ -1,0 +1,417 @@
+# JavaScript Questions : Conditional_Type
+Q1+2
+Q2+C
+Q3+A
+Q4+A
+Q5+C
+Q6+A
+Q7+B
+Q8+C
+Q9+2
+Q10+C
+Q11+D
+Q12+B
+Q13+Answer 2
+Q14+C
+Q15+A
+Q16+c
+Q17+D
+Q18+A
+Q19+A
+Q20+B
+Q21+C
+Q22+B
+Q23+2
+Q24+D
+Q25+E
+Q26+C
+Q27+D
+# Q1 How many choices are possible when using a single if-else statement?
+
+.A :  1
+.B :  2
+.C :  3
+
+# Q2 When is it required to use curly brackets {} for the body of the if statement ? 
+
+.A :  Always
+.B :  Never
+.C :  When the body has multiple statements
+
+# Q3 What will be output of the following code fragment ?
+
+                         let nbr = 6
+          if ( nbr < 10 )
+               console.log(" msg1 ")
+          else
+               console.log(" msg2 ")
+
+.A : msg1  
+.B : msg2
+.C : nothing 
+
+# Q4  What will be output of the following code fragment ?
+          
+             let msg = ""
+             let note = 16
+
+  if ( note > 10 )
+               msg = msg + "You succeed"
+          else 
+              msg = msg + "You don't succeed"
+              msg+= "in this year"   
+
+               console.log(msg)
+
+.A :  "You succeed"
+.B :  "You don't succeed"
+.C :  "in this year"  
+.D :  "You don't succeed in this year"
+.E : "You succeed in this year "
+
+# Q5  What will be output of the following code fragment ?
+          
+             let msg = ""
+             let note = 8
+  if ( note > 10 )
+               msg = msg + "You succeed"
+          else 
+              msg = msg + "You don't succeed"
+              msg = "in this year"   
+
+               console.log(msg)
+
+.A :  "You succeed"
+.B :  "You don't succeed"
+.C :  "in this year"  
+.D :  "You don't succeed in this year"
+
+# Q6  What will be output of the following code fragment ?
+          
+             let msg = ""
+             let note = 16
+
+  if ( note > 10 )
+               msg = msg + "You succeed"
+          else 
+              {
+              msg = msg + "You don't succeed"
+              msg += "in this year" }   
+
+               console.log(msg)
+
+.A :  "You succeed"
+.B :  "You don't succeed"
+.C :  "in this year"  
+.D :  "You don't succeed in this year"
+
+
+
+# Q7 What will be output of below statements?
+
+         let gender= "R"
+        if ( gender === "F" ){
+        console.log("Gender : female")
+         }  
+       else if (gender ==="M"){
+         console.log("Gender : male")
+        }
+       else {
+       console.log("Gender is not defined")
+
+
+
+.A :  "Gender : male"
+.B :  "Gender is not defined"
+.C :  "Gender : female"
+
+# Q8 What will be output of the following code fragment ?
+
+if ( 0 ) 
+  console.log("TRUE")
+else 
+  console.log("FALSE")
+
+.A :  "TRUE"
+.B :  "FALSE"
+.C :  nothing 
+
+# Q9 What will be output of the following code fragment ?
+
+if ( 10 ) 
+  console.log("TRUE")
+else 
+  console.log("FALSE")
+
+.A :  "TRUE"
+.B :  "FALSE"
+.C :  nothing 
+
+
+
+# Q10   What happens when an If statements conditional is not true?
+
+.A :  nothing
+.B :  The If statement starts over 
+.C :  The If statement executes
+
+# Q11 . How to write an ‘if’ statement for executing some code.
+If “i” is NOT equal to 5?
+
+.A : if(i<>5)
+.B : if i<>5
+.C : if(i!=5)
+.D : if i!=5
+
+
+                                                                                     
+# Q12 In a switch statement what must come after every case?
+
+.A :  end;
+.B :  break;
+.C :  continue;
+
+# Q13  What is the correct syntax of Switch statement ?
+//Answer 1
+let month = 2
+let monthString=""
+switch (month) {
+            case == 1:  monthString = "January";
+                        break;
+            case == 2 :  monthString = "February";
+                         break;
+            case ==3 :  monthString = "March";
+                        break;
+}
+
+//Answer 2
+let month = 2
+let monthString=""
+switch (month) {
+            case 1:  monthString = "January";
+                     break;
+            case 2:  monthString = "February";
+                     break;
+            case 3:  monthString = "March";
+                     break;
+}
+
+//Answer 3
+let month = 2
+let monthString=""
+switch (month) {
+            if case 1 =  monthString = "January";
+                        break;
+            if case 2 =  monthString = "February";
+                         break;
+            if case 3 =  monthString = "March";
+                        break;
+}
+
+.A :  Answer 1
+.B :  Answer 2
+.C :  Awswer 3
+
+# Q14 Curly braces {} are required in cases :
+
+.A :  true
+.B : false  
+
+
+
+# Q15 Curly braces {} are required in cases in switch :
+
+.A :  true
+.B : false  
+
+ 
+
+
+# Q16 What value is assigned to discount ?
+
+let discount
+let  code = 'C' 
+switch ( code )
+{
+  case 'A':
+    discount = 0.0
+    break;
+  case 'B':
+    discount = 0.1
+    break;
+  case 'C':
+    discount = 0.2
+    break;
+  default:
+    discount = 0.3;
+}
+
+.A :  0.0
+.B :  0.1
+.C :  0.2
+.D : 0.3 
+
+# Q17 What value is assigned to discount ?
+
+let discount
+let  code = 'X' 
+switch ( code )
+{
+  case 'A':
+    discount = 0.0
+    break;
+  case 'B':
+    discount = 0.1
+    break;
+  case 'C':
+    discount = 0.2
+    break;
+  default:
+    discount = 0.3;
+} 
+
+.A :  0.0
+.B :  0.1
+.C :  0.2
+.D : 0.3 
+
+# Q18  Which of the following cases is a correct way to write a case for a switch statement?
+                         
+.A :  case "Oussema";
+.B :  case "Oussema"::
+.C :  case "Oussema":
+
+# Q19  The default case is executed if all the other cases for a switch statement evaulate to false?
+
+.A : True 
+.B :  False
+
+
+# Q20 What does the following snippet output?
+
+
+let name = false ? "Amina" : "Salim"
+console.log(name)
+
+.A :  false
+.B :  Salim
+.C :  Amina
+
+# Q21 What are the correct answers to show if “myNumber” is even or odd ?
+
+// Answer 1
+let myNumber = 5
+let result = myNumber % 2 === 0 ? "even" else "odd" 
+console.log(result) 
+
+// Answer 2
+let myNumber = 5
+let result = myNumber % 2 === 0 : "even" ? "odd" 
+console.log(result) 
+
+// Answer 3
+let myNumber = 5
+let result = myNumber % 2 === 0 ? "even" : "odd" 
+console.log(result) 
+
+// Answer 4
+let myNumber = 5
+let result = myNumber % 2  ? "odd" : "even" 
+console.log(result) 
+            
+
+.A :  Answer 1
+.B :  Answer 2
+.C :  Answer 3
+.D :  Answer 4 
+
+# Q22 The statement let y = x < 3 ? 4 : 8  means:
+
+// Statement 1
+if(x < 3 ) 
+  y= 8
+else 
+  y= 4
+  
+// Statement 2
+if(x < 3 ) 
+  y= 4
+else 
+  y= 8
+
+// Statement 3
+if(x < 3 ) 
+  y= 4
+else if (x>3)
+  y= 8
+else 
+  y= 3
+            
+.A :  statement 1
+.B :  statement 2 
+.C :  statement 3
+
+# Q23  What will be output of below statements?
+
+let name ="Amira"
+console.log( height > 1.75 ? "Allani" : "Mezrigui")
+
+.A :  Allani
+.B :  Mezrigui
+.C :  Amira
+
+# Q24 What will be output of below statements?
+
+let name ="Syrine" 
+console.log(name === "Syrine" ? "Hi! I'm Syrine" 
+
+.A :  "Hi! I'm Syrine"
+.B :  "Syrine"
+.C :   ""
+.D : SyntaxError              
+
+# Q25 What's the value of the expression 5 > 10 ? 'one' : 5 > 7 ? 'two'  : 'three
+
+.A : 5  
+.B : 10
+.C : 'one' 
+.D : 'two'
+.E : 'three'
+
+# Q26 What value is placed in myVar?
+
+let num = 12 > 9 ? 0 : 1
+
+.A : true 
+.B : false
+.C : 0
+.D : 1
+# Q27 What value is assigned to result ?
+
+let result
+let   char = 'f' ;
+switch ( char )
+{
+  
+  case 'A':
+    result = 1;
+    break;
+
+ 
+  case 'B':
+    result = 2;
+    break;
+
+  
+  case 'C':
+    result = 3;
+    break;
+
+  default:
+    result = 4;
+} 
+
+.A :  1
+.B :  2
+.C :  3
+.D :  4
