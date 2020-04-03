@@ -1,0 +1,268 @@
+# JavaScript Questions : Basics
+
+# Q1 to create function we use the keyword ? A 
+
+.A : function
+.B : var
+.C : const
+
+
+
+# Q2  Inside which HTML element do we put the JavaScript? A 
+
+.A :  <script>
+.B :  <jsscript>
+.C :  <javascript>
+
+
+# Q3 Where is the correct place to insert a JavaScript? a
+
+.A : both the <head> section and the body section are correct
+.B : the <head> section 
+.C : the <body> section 
+  
+
+# Q4  What is the correct syntax for referring to an external script called "xxx.js"?    ? B 
+
+
+.A : <script href="xxx.js">
+.B : <script src="xxx.js">
+.C : <script name ="xxx.js">
+
+
+ 
+# Q5 The external JavaScript file must contain the <script> tag? b 
+
+.A : true 
+.B : false
+
+
+# Q6 How do you write "Hello World" in an alert box?? D
+
+
+.A : alertBox("Hello World")
+.B : msgBox("Hello World")
+.C : msg("Hello World")
+.D : alert("Hello World")
+
+# Q7 How do you call a function named "myFunction"? c
+
+.A : call function myFunction() 
+.B :  myFunction
+.C : myFunction()
+.D : call myFunction()
+
+# Q8 Does this function always have the same output? B
+function positif() {
+  const x = Math.random()
+  if (x>0) 
+  console.log('positif')
+  else 
+  console.log('zero')
+}
+
+.A : Yes
+.B : No
+
+# Q9 Can we have another function as parameter? C 
+
+
+.A : Yes 
+.B : No
+.C : Depends on the JS version
+
+# Q10    What’s this function’s output? e
+function myFunction p1, p2 {
+  return p1 * p2;
+}
+
+myFunction (2,3)
+
+.A : 6
+.B : 2
+.C : 3
+.D : null
+.E : Error
+
+
+# Q11 What’s this function’s output? E
+function myFunction (p1 p2) {
+  return p1 * p2;
+}
+
+myFunction (2,3)
+
+
+.A : 6
+.B : 2
+.C : 3
+.D : null
+.E : Error
+                                                                               
+# Q 12 What type of data cannot be used as a parameter  E
+
+.A : object 
+.B :  function
+.C : array
+.D : string
+.E : None of the above
+
+
+
+
+
+# Q13 What’s the default return value of a function B
+
+
+.A : null
+.B : undefined 
+.C : default
+.D : 0
+
+
+# Q14 How many return statements can we find in a function?? B+D
+
+
+.A : 0
+.B : 1
+.C : 1 or more
+.D : depends on the function
+                          
+# Q15 What’s the return value of this function?  c 
+
+function myFunction(a, b) {
+  a * b;
+}
+
+myFunction(4, 3)
+
+.A :  4 
+.B :  12
+.C :  undefined
+.D :  null
+.E :  Error
+
+
+# Q16  What’s the return value of this function? a+b
+
+function greeting () {
+  if (hour < 18)
+    return ("Good day")
+  console.log("Good night")
+}
+greeting (19)
+
+.A : undefined
+.B : "Good night"  
+.C : "Good day"
+.E : Error
+
+# Q17 How can you add a comment in a JavaScript? a
+
+.A  :  // This is a comment
+.B  : <!-- this is a comment -->
+.C  : "this is a comment"
+
+# Q18  How to insert a comment that has more than one line? a
+                           
+.A  : /*  This comment has more than one line */
+.B  : <!-- This is a comment -->
+.C  : // This is a comment //
+
+# Q19  what does test() output? c
+
+function test(num) {
+  console.log(num)
+}
+
+.A  : Error 
+.B  : 1
+.C  : undefined
+.D  : null
+
+# Q20 What’s a recursive function? b
+
+.A  : A function that has another function as a parameter
+.B  : A function that calls itself
+.C  : A function that's passed as a parameters
+.D : All of the above
+
+# Q21 What does this function output? a
+
+function() {
+  var a = 10
+  if(a > 5)
+    a = 7
+  console.log(a)
+}
+
+.A  : 7
+.B  : 10
+.C  : null
+.D  : undefined
+
+# Q22 What does the following snippet output? b
+
+function() {
+  var a = 10
+  if(false)
+    a = 7
+console.log(a)
+}
+
+.A  : 7
+.B  : 10
+.C  : null
+.D  : undefined
+
+# Q23 What does the following snippet output? a
+var a = 10
+function() {
+  if(true)
+    a = 7
+  console.log(a)
+}
+
+.A  : 7
+.B  : 10
+.C  : null
+.D  : undefined
+
+# Q24  What does the following snippet output? c
+
+var a = 6
+function test() {
+  var a = 7
+  function again() {
+    var a = 8
+    console.log(a) 
+  }
+  again()
+  console.log(a) 
+}
+test()
+console.log(a)
+
+.A  : 6,7,8
+.B  : 7,8,6
+.C  : 8,7,6
+.D  : Error
+
+
+# Q25 What does first ()() return? e
+
+function first() {
+  var b = 8
+  function second() {
+    var a = 9
+    console.log(b) 
+  }
+console.log(a)
+return second
+}
+
+.A  : 8,9
+.B  : 9,8
+.C  : 8
+.D   : 9
+.E : Error
